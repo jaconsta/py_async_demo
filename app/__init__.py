@@ -3,7 +3,11 @@ Docs:
 AioHttp: http://aiohttp.readthedocs.io/en/stable/web.html
 Cors: https://github.com/aio-libs/aiohttp-cors
 
+Mongo DB:
+http://motor.readthedocs.io/en/stable/tutorial-asyncio.html
 
+Schemas:
+https://webargs.readthedocs.io/en/latest/framework_support.html#aiohttp
 """
 
 import asyncio
