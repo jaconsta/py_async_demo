@@ -16,7 +16,7 @@ from app.lib.welcome import *
 # Setting db
 @asyncio.coroutine
 def setup_db():
-    db = AsyncIOMotorClient('mongodb://localhost:32768').py_async
+    db = AsyncIOMotorClient('mongodb://localhost:26099').py_async
     return db
 
 
@@ -28,3 +28,6 @@ app.router.add_get('/', handle)
 app['db'] = db
 
 web.run_app(app)
+
+if __name__ == '__main__':
+    pass
